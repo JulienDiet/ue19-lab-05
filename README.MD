@@ -16,6 +16,6 @@ git clone https://github.com/<votre-username>/ue19-lab-05.git
 cd ue19-lab-05
 ```
 
-### 2. Exécuter
+### 2. Exécuter de l'app
 ```bash
 python app.py

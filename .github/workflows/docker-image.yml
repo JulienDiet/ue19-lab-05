@@ -31,4 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/JulienDiet/ue19-lab-05/my-app:latest
+          tags: ghcr.io/juliendiet/ue19-lab-05/my-app:latest

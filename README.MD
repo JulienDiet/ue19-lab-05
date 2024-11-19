@@ -14,7 +14,8 @@ Ce programme interroge l'API MyAnimeList via RapidAPI pour récupérer et affich
 ```bash
 git clone https://github.com/<votre-username>/ue19-lab-05.git
 cd ue19-lab-05
+```
 
-### 1. Exécuter
+### 2. Exécuter
 ```bash
 python app.py

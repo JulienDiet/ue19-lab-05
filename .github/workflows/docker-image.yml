@@ -1,4 +1,4 @@
-name: Build, Scan, and Publish Docker Image
+name: Build, Scan, and publish Docker Image
 
 on:
   push:

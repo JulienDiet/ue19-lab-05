@@ -21,10 +21,11 @@ jobs:
         run: |
           docker image build -t nagetto/ue19-lab-05:latest .
 
+
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@0.28.0
         with:
-          image-ref: 'docker.io/nagetto/ue19-lab-05:latest'  # Utilise le bon tag de l'image
+          image-ref: 'docker.io/nagetto/ue19-lab-05:latest'
           format: 'table'
           exit-code: '1'
           ignore-unfixed: true
